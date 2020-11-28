@@ -5,7 +5,7 @@ import time
 
 # Variables definition
 On = True
-Resp = input('Quer começar?(s/n)')
+Resp = input('Start?(y/n)')
 
 # Input Request
 if Resp == 's':
