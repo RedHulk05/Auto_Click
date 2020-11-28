@@ -4,7 +4,6 @@ This program clicks automatically
 ## Dependencies 
 - python3
 - PyAutoGUI
-- time
 - keyboard
 
 ### Install Dependencies
