@@ -3,31 +3,31 @@ import pyautogui
 import keyboard
 import time
 
-# Variables definition
+# variables definition
 On = True
 Resp = input('Start?(y/n)')
 
-# Input Request
+# input request
 if Resp == 's':
     time.sleep(2.0)
 
-# Primary Loop
+# primary loop
     while True:
 
-# Defining close key
+# defining close key
         if keyboard.is_pressed('c'):
             break
 
-# Defining On key
+# defining on key
         if keyboard.is_pressed('r'):
             On = True
 
-# Secondary Loop
+# secondary loop
         while On:
 
-# Click definition (You can decrease or increase he number of click by changing de clicks number, it´s not recommended more than 10)
+# click definition (you can decrease or increase he number of click by changing de clicks number, it´s not recommended more than 10)
             pyautogui.click(pyautogui.position(), clicks=4)
 
-# Defining Off key
+# defining off key
             if keyboard.is_pressed('f'):
                 On = False
